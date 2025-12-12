@@ -1,12 +1,10 @@
 # AI-Powered-Smart-Email-Classifier-for-Enterprises
 
-# Customer Support Ticket & Email Classification System
-
 This project is a Machine Learning pipeline designed to classify customer communications into four distinct categories: **Complaints**, **Requests**, **Spam**, and **Feedback**.
 
 It processes text data from multiple sources, cleans it using NLP techniques, trains a Logistic Regression model, and generates statistical visualizations of the text data.
 
-## 📌 Features
+##  Features
 
 * **Multi-Source Data Integration**: Merges data from three different datasets (Customer Support Tickets, Spam Emails, and Amazon Reviews).
 * **Text Preprocessing Pipeline**:
@@ -19,7 +17,7 @@ It processes text data from multiple sources, cleans it using NLP techniques, tr
 * **Visualization**: Generates and saves boxplots for word and character count distributions.
 * **Export**: Saves the cleaned, processed, and labeled dataset to a CSV file.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```bash
 ├── main.py                     # The primary Python script
