@@ -36,7 +36,7 @@ Merges diverse datasets to create a robust training ground:
 
 ## 📂 Project Structure
 
-
+```
 ├── app.py                      # The main Streamlit dashboard application
 ├── main.py                     # Script for data processing and model training
 ├── requirements.txt            # List of dependencies
@@ -49,7 +49,7 @@ Merges diverse datasets to create a robust training ground:
 ├── final_processed_data.csv    # OUTPUT: Cleaned and merged dataset
 ├── distribution_plots.png      # OUTPUT: Visualization of text stats
 └── README.md                   # Project documentation 
-
+```
 ---
 
 ## 🛠️ Installation & Usage
