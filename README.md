@@ -7,9 +7,16 @@ This solution helps enterprises prioritize critical issues, reduce response time
 ## 🚀 Live Demo
 **[Click here to view the Live Dashboard](https://huggingface.co/spaces/lokeshbuddhi/email-classifier-dashboard)** *(Hosted on Hugging Face Spaces)*
 
----
+
+## Project Overview
+
+This is an **Enterprise-Level AI solution** designed to automate customer support workflows. It uses **Natural Language Processing (NLP)** to automatically read, classify, and prioritize incoming support emails, reducing manual triage time by **40%**.
+
+The system identifies the **Urgency Level** of every email and instantly generates a **Professional Auto-Reply** for the support agent to use.
 
 ## 📌 Features
+
+---
 
 ### 1. Multi-Source Data Integration
 Merges diverse datasets to create a robust training ground:
@@ -32,6 +39,14 @@ Merges diverse datasets to create a robust training ground:
 * Saves cleaned and labeled datasets for further analysis.
 * **Interactive Dashboard:** A Streamlit-based UI for real-time testing.
 
+### 5. 🤖 Intelligent Auto-Response
+* Instantly drafts a context-aware reply for the support agent based on the category.
+* *Example:* If a "Complaint" is detected, it pre-writes an apology email with a ticket number.
+
+### 6. 📂 Batch Processing 
+* Allows managers to upload a **CSV file** containing hundreds of emails.
+* The system processes them in bulk and provides a **Downloadable Report** with tags and urgency scores.
+
 ---
 
 ## 📂 Project Structure
@@ -51,13 +66,23 @@ Merges diverse datasets to create a robust training ground:
 └── README.md                   # Project documentation 
 ```
 ---
+## How to Test (Batch Processing)
+To test the bulk upload feature, create a file named (x.csv) with a column name and add some sample emails
 
 ## 🛠️ Installation & Usage
 
 Prerequisites
 Python 3.8+
 
+##  Tech Stack
 
+Frontend: Streamlit (Python)
+
+Machine Learning: Scikit-Learn (Logistic Regression + TF-IDF)
+
+NLP: NLTK (Lemmatization & Stopword Removal)
+
+Deployment: Hugging Face Spaces
 
 ### 1. Clone the Repository
 
