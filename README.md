@@ -5,7 +5,7 @@ An intelligent Machine Learning pipeline designed to automate customer support w
 This solution helps enterprises prioritize critical issues, reduce response times, and filter out noise automatically.
 
 ## 🚀 Live Demo
-**[Click here to view the Live Dashboard](https://huggingface.co/spaces/lokeshbuddi/email-classifier-dashboard)** *(Hosted on Hugging Face Spaces)*
+**[Click here to view the Live Dashboard](https://huggingface.co/spaces/lokeshbuddhi/email-classifier-dashboard)** *(Hosted on Hugging Face Spaces)*
 
 ---
 
