@@ -59,29 +59,29 @@ Python 3.8+
 
 
 
-# 1. Clone the Repository
+### 1. Clone the Repository
 
 git clone [https://github.com/lokeshbuddi/AI-Powered-Smart-Email-Classifier-for-Enterprises.git](https://github.com/lokeshbuddi/AI-Powered-Smart-Email-Classifier-for-Enterprises.git)
 cd AI-Powered-Smart-Email-Classifier-for-Enterprises
 
-# 2. Install Dependencies
+### 2. Install Dependencies
 
 pip install -r requirements.txt
 
-# 3. Run the Dashboard
+### 3. Run the Dashboard
 
 streamlit run app.py
 The app will open in your browser at http://localhost:8501.
 
 ## 📊 How It Works
 
-# Input: 
+### Input: 
 The user pastes an email into the text box on the dashboard.
 
-# Process: 
+### Process: 
 The system cleans the text and runs it through the pre-trained Logistic Regression and DistilBERT models.
 
-# Output: 
+### Output: 
 The dashboard displays:
 
 Category: (e.g., "Complaint")
@@ -92,4 +92,4 @@ Confidence Score: Probability percentage.
 
 ## 👨‍💻 Author
 
-# Lokesh Buddi
+### Lokesh Buddi
