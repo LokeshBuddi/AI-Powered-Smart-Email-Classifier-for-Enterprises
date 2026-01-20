@@ -36,7 +36,7 @@ Merges diverse datasets to create a robust training ground:
 
 ## 📂 Project Structure
 
-```bash
+
 ├── app.py                      # The main Streamlit dashboard application
 ├── main.py                     # Script for data processing and model training
 ├── requirements.txt            # List of dependencies
@@ -50,36 +50,39 @@ Merges diverse datasets to create a robust training ground:
 ├── distribution_plots.png      # OUTPUT: Visualization of text stats
 └── README.md                   # Project documentation 
 
+---
 
-
-🛠️ Installation & Usage
+## 🛠️ Installation & Usage
 
 Prerequisites
 Python 3.8+
 
-Pip
 
-1. Clone the Repository
+
+# 1. Clone the Repository
 
 git clone [https://github.com/lokeshbuddi/AI-Powered-Smart-Email-Classifier-for-Enterprises.git](https://github.com/lokeshbuddi/AI-Powered-Smart-Email-Classifier-for-Enterprises.git)
 cd AI-Powered-Smart-Email-Classifier-for-Enterprises
 
-2. Install Dependencies
+# 2. Install Dependencies
 
 pip install -r requirements.txt
 
-3. Run the Dashboard
+# 3. Run the Dashboard
 
 streamlit run app.py
 The app will open in your browser at http://localhost:8501.
 
-📊 How It Works
+## 📊 How It Works
 
-Input: The user pastes an email into the text box on the dashboard.
+# Input: 
+The user pastes an email into the text box on the dashboard.
 
-Process: The system cleans the text and runs it through the pre-trained Logistic Regression and DistilBERT models.
+# Process: 
+The system cleans the text and runs it through the pre-trained Logistic Regression and DistilBERT models.
 
-Output: The dashboard displays:
+# Output: 
+The dashboard displays:
 
 Category: (e.g., "Complaint")
 
@@ -87,6 +90,6 @@ Urgency: (e.g., "High Priority")
 
 Confidence Score: Probability percentage.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Lokesh Buddi
+# Lokesh Buddi
